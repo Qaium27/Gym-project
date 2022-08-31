@@ -121,6 +121,7 @@
 .workout-container{
     width: 700px;
     height: 200px;
+    color: white;
     background-image: url(./images/shape/Group_33094_1.png);
     background-position:center;
     background-repeat: no-repeat;
@@ -131,4 +132,34 @@
     align-items: center;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+.service-card{
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 8px 8px 16px gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.service-img img{
+    width: 100%;
+}
+.service-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+}
+.batch{
+    position: relative;
+}
+.batch img{
+    width: 80px;
+    top: -30px;
+    left: 260px;
+    position: absolute;
 }
